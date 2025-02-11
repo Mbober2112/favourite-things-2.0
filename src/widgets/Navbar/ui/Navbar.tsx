@@ -9,7 +9,7 @@ interface NavbarProps {
 }
 
 export const Navbar = ({ className }: NavbarProps) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("translation");
   return (
     <div className={classNames(cls.navbar, {}, [classNames(className)])}>
       <AppLink to={"/"} theme={AppLinkTheme.SECONDARY}>

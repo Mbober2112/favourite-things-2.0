@@ -4,6 +4,9 @@ import { classNames } from "shared/lib/classNames/classNames";
 
 export enum ThemeButton {
   CLEAR = "clear",
+  PRIMARY = "primary",
+  SECONDARY = "secondary",
+  COMMON = "common",
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

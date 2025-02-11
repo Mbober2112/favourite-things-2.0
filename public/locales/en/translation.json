@@ -4,5 +4,7 @@
   "aboutPage": "About page",
   "mainPage": "Main page",
   "main": "Main",
-  "pageNotFound": "Page not found"
+  "pageNotFound": "Page not found",
+  "somethingWentWrong": "Something went wrong",
+  "reloadPage": "Reload page"
 }
