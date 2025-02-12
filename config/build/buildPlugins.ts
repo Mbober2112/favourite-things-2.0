@@ -1,4 +1,5 @@
 import HtmlWebpackPlugin from "html-webpack-plugin";
+import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import webpack from "webpack";
 import { BuildOptions } from "./types/config";
@@ -20,5 +21,6 @@ export function buildPlugins({
       __IS_DEV__: JSON.stringify(isDev),
     }),
     new webpack.HotModuleReplacementPlugin(),
+    new BundleAnalyzerPlugin(),
   ];
 }
